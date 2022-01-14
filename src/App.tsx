@@ -74,7 +74,7 @@ const dimensionsOptions: DimensionsOptions = [
 ]
 
 function App() {
-  const { previewProps, selectorProps } = useDimensionsSelect(dimensionsOptions)
+  const { previewProps, selectorProps, selectedOption } = useDimensionsSelect(dimensionsOptions)
 
   return (
     <div className="w-full flex flex-col min-h-screen justify-center items-center bg-gray-800 text-white">
@@ -98,13 +98,17 @@ function App() {
         </div>
 
         <DimensionsSelector {...selectorProps} />
+
+        <div className='mt-3'>
+          Selected Option: {selectedOption.name}, Dimensions: {selectedOption.dimensions.join('x')}
+        </div>
       </div>
 
-        <a 
-          className='block py-2 hover:underline'
-          href="https://www.github.com/patheticGeek">
-          Made by @patheticGeek
-        </a>
+      <a 
+        className='block py-2 hover:underline'
+        href="https://www.github.com/patheticGeek">
+        Made by @patheticGeek
+      </a>
     </div>
   )
 }
