@@ -26,7 +26,8 @@ export const useDimensionsSelect = (dimensionsOptions: DimensionsOptions) => {
   }, [previewDimensions, selectedOption])
 
   return {
-    selectedOption,
+    // return the selection option and not the selectedOrHovering
+    selectedOption: dimensionsOptions[selectedIndex],
     selectedIndex,
     setSelectedIndex,
     setHoveringIndex,
