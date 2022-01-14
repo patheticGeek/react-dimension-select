@@ -1,5 +1,4 @@
-/**
- * This is used only in production to export your package
- */
-export { default as App } from './App'
-
+export { DimensionPreview } from './components/DimensionPreview'
+export { DimensionsSelector } from './components/DimensionsSelector'
+export { useDimensionsSelect } from './hooks/useDimensionsSelect'
+export * from './types'
