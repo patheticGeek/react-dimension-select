@@ -20,7 +20,7 @@
     "prettier-config-standard": "latest",
     "tailwindcss": "latest",
     "twind": "latest",
-    "typescript": "latest",
+    "typescript": "^4.5.4",
     "vite": "latest",
     "vite-tsconfig-paths": "latest"
   },
