@@ -1,6 +1,6 @@
 {
   "name": "react-dimension-select",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "homepage": "https://www.github.com/patheticGeek/react-dimension-select",
   "repository": {
@@ -43,21 +43,19 @@
     "prepare": "yarn build && yarn dts",
     "start": "vite preview"
   },
-  "files": [
-    "dist"
-  ],
   "engines": {
     "node": ">12"
   },
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
   "husky": {
     "hooks": {
       "pre-commit": "tsdev prettier",
       "pre-push": "tsdev lint"
     }
   },
-  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "typings": "dist/index.d.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "exports": {
     ".": {
       "exports": "./dist/index.umd.js",
