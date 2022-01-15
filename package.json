@@ -1,5 +1,16 @@
 {
   "name": "react-dimension-select",
+  "version": "0.1.1",
+  "license": "MIT",
+  "homepage": "https://www.github.com/patheticGeek/react-dimension-select",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/patheticGeek/react-dimension-select.git"
+  },
+  "author": {
+    "name": "Pathetic Geek",
+    "url": "https://github.com/patheticGeek"
+  },
   "dependencies": {
     "classnames": "^2.3.1",
     "react": "^17.0.0",
@@ -46,8 +57,6 @@
       "pre-push": "tsdev lint"
     }
   },
-  "version": "0.1.0",
-  "license": "MIT",
   "module": "dist/index.es.js",
   "exports": {
     ".": {
