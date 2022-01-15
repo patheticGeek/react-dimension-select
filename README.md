@@ -3,7 +3,7 @@
 A minimal dimension selector using react hooks
 
 <p align="center">
-  <img src="./screenshots/one.png" alt="React dimension select" />
+  <img src="screenshots/one.png" alt="React dimension select" />
 </p>
 
 ## Install
