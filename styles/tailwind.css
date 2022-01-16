@@ -2,8 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.stackedLayer {
-  grid-row: 1;
-  grid-column: 1;
-}

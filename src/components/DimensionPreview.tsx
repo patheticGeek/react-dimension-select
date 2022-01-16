@@ -20,8 +20,8 @@ export function DimensionPreview({
   }
 
   return (
-    <div className="grid">
-      <div className="stackedLayer flex items-start justify-center">
+    <div className="relative">
+      <div className="flex items-start justify-center">
         <img
           ref={handleDimensionsUpdate}
           className="object-cover"
@@ -31,7 +31,7 @@ export function DimensionPreview({
       </div>
 
       {/* The curtains on top of image */}
-      <div className="stackedLayer w-full h-full flex">
+      <div className="absolute inset-0 w-full h-full flex">
         {/** Top */}
         <div className="bg-gray-900 bg-opacity-60 flex-1 transition duration-150 ease-in-out" />
 
