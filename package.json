@@ -1,15 +1,17 @@
 {
   "name": "react-dimension-select",
+  "description": "A simple library to easily create a dimension selector",
+  "keywords": ["react", "dimension-selection", "tsdev"],
   "version": "0.2.1",
   "license": "MIT",
-  "homepage": "https://www.github.com/patheticGeek/react-dimension-select",
+  "homepage": "https://www.github.com/patheticgeek/react-dimension-select",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/patheticGeek/react-dimension-select.git"
+    "url": "https://www.github.com/patheticgeek/react-dimension-select.git"
   },
   "author": {
-    "name": "Pathetic Geek",
-    "url": "https://github.com/patheticGeek"
+    "name": "pathetic geek",
+    "url": "https://github.com/patheticgeek"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -54,14 +56,8 @@
   },
   "files": ["dist"],
   "typings": "dist/index.d.ts",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
-  "exports": {
-    ".": {
-      "exports": "./dist/index.umd.js",
-      "imports": "./dist/index.es.js"
-    }
-  },
+  "main": "./dist/react-dimension-select.umd.js",
+  "module": "./dist/react-dimension-select.es.js",
   "prettier": "prettier-config-standard",
   "tsdev": {
     "template": 3,

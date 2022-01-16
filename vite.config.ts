@@ -12,7 +12,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: pkg.name,
-      fileName: (format) => `index.${format}.js`
+      fileName: (format) => `react-dimension-select.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
